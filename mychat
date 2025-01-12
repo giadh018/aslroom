@@ -1,0 +1,10 @@
+<script>start("/Users/giadh018/Desktop/Web_app/mychat/");</script>
+<script>onHasParentDirectory();</script>
+<script>addRow("base","base",1,448,"448 B",1736691606,"1/12/25, 9:20:06 PM");</script>
+<script>addRow("mychat","mychat",1,256,"256 B",1736502588,"1/10/25, 4:49:48 PM");</script>
+<script>addRow("static","static",1,192,"192 B",1736506783,"1/10/25, 5:59:43 PM");</script>
+<script>addRow("staticfiles","staticfiles",1,224,"224 B",1736695894,"1/12/25, 10:31:34 PM");</script>
+<script>addRow(".DS_Store",".DS_Store",0,6148,"6.0 kB",1736527547,"1/10/25, 11:45:47 PM");</script>
+<script>addRow("db.sqlite3","db.sqlite3",0,131072,"128 kB",1736503270,"1/10/25, 5:01:10 PM");</script>
+<script>addRow("manage.py","manage.py",0,662,"662 B",1736683388,"1/12/25, 7:03:08 PM");</script>
+<script>addRow("requirements.txt","requirements.txt",0,13006,"12.7 kB",1736693938,"1/12/25, 9:58:58 PM");</script>
