@@ -46,7 +46,7 @@ matplot==0.1.9
 matplotlib==3.10.0
 mdurl==0.1.2
 mediapipe==0.10.18
-ml-dtypes==0.3.1
+ml-dtypes==0.4.0
 more-itertools==10.5.0
 namex==0.0.8
 nh3==0.2.19
@@ -88,9 +88,9 @@ six==1.17.0
 sounddevice==0.5.1
 sqlparse==0.5.3
 tb-nightly==2.19.0a20250112
-tensorboard==2.16.2
+tensorboard==2.18.0
 tensorboard-data-server==0.7.2
-tensorflow==2.16.2
+tensorflow==2.18.0
 tensorflow-estimator==2.13.0
 tensorflow-io-gcs-filesystem==0.37.1
 termcolor==2.5.0
