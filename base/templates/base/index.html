@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASL Room</title>
+    <link rel="stylesheet" href="{% static 'styles/index.css' %}">
+</head>
+<body>
+    <header>
+        <div class="header-text"><span class="connected-text"><span>CHAT</span></span>ROOM</div>
+        <div class="logo">
+            <div class="logo-text">ASL<span>ROOM</span></div>
+        </div>
+    </header>
+    <main>
+        <div class="text-frame">
+            <p>Welcome to ASL Room! Join us to create or join a room.</p>
+            <div class="button-container">
+                <a href="{% url 'lobby' %}" class="button">GO TO LOBBY</a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 ASL Room - By Duong Hoang Gia - MSSV: 20119129. All rights reserved.</p>
+    </footer>
+</body>
+</html>

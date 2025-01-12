@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #313030;
+  background-position: center; 
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header-text {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 2em;
+  font-weight: 900;
+  color: #d7d7d7;
+  font-family: 'Futura', 'Arial', sans-serif;
+  letter-spacing: 2px;  
+}
+
+.header-text span {
+  text-shadow: 
+    0 0 10px #03dac6, 
+    0 0 20px #03dac6; 
+}
+
+.connected-text {
+  letter-spacing: 2px;
+}
+
+
+.logo {
+  width: 220px;
+  height: 215px;
+  border-radius: 50%;
+  background-color: rgb(54, 43, 61);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 100px 0;
+  overflow: hidden;
+  border: 8px solid #03dac6; /* Thêm border */
+  box-shadow: 
+      0 0 15px #03dac6,
+      0 0 30px #03dac6,
+      0 0 45px #03dac6,
+      0 0 60px rgba(3, 218, 198, 0.5); /* Thêm box-shadow */
+}
+
+.logo::before {
+  content: '';
+  position: absolute;
+  width: 95%;
+  height: 95%;
+  border-radius: 50%;
+  border: 3px solid rgba(255, 255, 255, 0.2); 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.logo-text {
+  font-family: 'Bebas Neue', sans-serif; /* Áp dụng font chữ cho ASL */
+  font-size: 5em; 
+  font-weight: bold;
+  color: #ffffff; 
+  text-align: center;
+  text-shadow: 
+    0 0 10px #03dac6, 
+    0 0 20px #03dac6; 
+  line-height: 1; /* Điều chỉnh khoảng cách giữa các dòng */
+}
+
+.logo-text span { /* Chỉ áp dụng cho chữ ASL */
+  font-family: 'Roboto', sans-serif; /* Áp dụng font chữ cho ROOM */
+  font-weight: 10; /* Điều chỉnh trọng lượng font chữ */
+  display: block; 
+  font-size: 0.6em; /* Điều chỉnh kích thước chữ ASL */
+  letter-spacing: 3px;
+}
+
+.text-frame {
+  border: 2px solid #03dac6; /* Màu viền khung */
+  padding: 15px; /* Khoảng cách giữa viền và chữ */
+  background-color: rgba(3, 218, 198, 0.1); /* Màu nền mờ */
+  border-radius: 10px; /* Bo tròn góc khung */
+  margin-bottom: 20px; /* Khoảng cách giữa khung và nút */
+  text-align: center; /* Căn giữa chữ trong khung */
+}
+.text-frame p {
+  font-family: 'Arial', sans-serif; /* Thay đổi font chữ nếu cần */
+  font-size: 1em; /* Điều chỉnh kích thước chữ */
+  letter-spacing: 1px; /* Điều chỉnh khoảng cách giữa các chữ cái */
+}
+
+.button-container {
+  display: flex;
+  justify-content: center; 
+  gap: 20px; 
+}
+
+.button {
+  font-weight: 600; /* Điều chỉnh trọng lượng font chữ */
+  font-family: 'Bebas Neue', sans-serif; /* Áp dụng font chữ cho ASL */
+  display: inline-block;
+  padding: 12px 38px;
+  margin: 15px;
+  font-size: 1em;
+  color: #f6f3f3; 
+  background-color: rgb(54, 43, 61);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  text-decoration: none;
+  border: 1px solid white; /* Thêm viền trắng, độ dày 2px */
+
+}
+
+.button:hover {
+  background-color: #03dac6; 
+  transform: scale(1.05); 
+}
+
+footer {
+  margin-top: 40px;
+  padding: 20px 0;
+  color: #ffffff; 
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 2.5em;
+  }
+
+  .logo-text {
+    font-size: 2em; 
+  }
+
+  .button {
+    padding: 10px 20px;
+    font-size: 0.9em;
+  }
+}
